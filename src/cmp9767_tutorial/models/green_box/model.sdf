@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <sdf version='1.7'>
-  <model name='red_box'>
+  <model name='green_box'>
     <link name='link'>
       <inertial>
         <mass>0.00143404</mass>
