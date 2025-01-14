@@ -1,4 +1,4 @@
-# LIMO Detector
+# LIMO The Detector
 
 This project aims to autonomously detect and count different coloured objects (red and green) in two worlds (basic_world.world & advanced_world.world), using ROS2 packages and python files that are compatable with LIMO Robot.
 
