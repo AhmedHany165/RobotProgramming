@@ -43,7 +43,7 @@ ros2 launch limo_gazebosim limo_gazebo_diff.launch.py world:=src/cmp9767_tutoria
 ```
 Example:
 ```bash
-ros2 launch limo_gazebosim limo_gazebo_diff.launch.py world:=src/cmp9767_tutorial/worlds/basic_world
+ros2 launch limo_gazebosim limo_gazebo_diff.launch.py world:=src/cmp9767_tutorial/worlds/basic_world.world
 ```
 
 ## 2. Launch Navigation
@@ -65,11 +65,11 @@ ros2 launch limo_navigation limo_navigation.launch.py map:=src/cmp9767_tutorial/
 
 ## 3. Run the detector file     
 ``` bash 
-ros2 run cmp9767_tutorial detector_3d
+ros2 run cmp9767_tutorial detector_3d.py
 ```
 ## 4. Run the counter file
 ``` bash 
-ros2 run cmp9767_tutorial counter_3d
+ros2 run cmp9767_tutorial counter_3d.py
 ```
 ## 5. Run the inspection file
 ``` bash 
@@ -77,5 +77,5 @@ ros2 run cmp9767_tutorial <filename>
 ```
 Example:
 ``` bash 
-ros2 run cmp9767_tutorial basic_inspection
+ros2 run cmp9767_tutorial basic_inspection.py
 ```
